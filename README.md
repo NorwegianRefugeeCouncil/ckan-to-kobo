@@ -1,4 +1,4 @@
-# CKAN to Kobo
+# CKAN to KoBo
 
 This script is for technical users with Python familiarity who would like to pull CKAN datasets into their Kobo instance. This will create Kobo Collection question blocks from Kobo resource files.
 
