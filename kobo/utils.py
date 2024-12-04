@@ -111,11 +111,11 @@ class KoboAPI:
     def create_new_kobo_collection(
         self,
         collection_name,
-        collection_country_code="XXX",
-        collection_country_label="XXX",
-        collection_sector="XXX",
-        collection_description="XXX",
-        collection_organization="XXX",
+        collection_country_code="",
+        collection_country_label="",
+        collection_sector="",
+        collection_description="",
+        collection_organization="",
     ):
         """ Create Kobo collection """
         log.info(f'Creating Kobo collection {collection_name}')
