@@ -36,7 +36,7 @@ Also, you'll need to define:
 
 ## KoBo test
 
-![Our KoBo test](our-collection.png)
+![Our KoBo test](docs/our-collection.png)
 
 ## Example
 
@@ -51,11 +51,11 @@ python ndx_pcodes_to_kobo.py \
     --kobo-question-block-id XXX
 ```
 
-![command results](question-block-up-countries-command.png)
+![command results](docs/question-block-up-countries-command.png)
 
 Results
 
-![question block countries](question-block-countries.png)
+![question block countries](docs/question-block-countries.png)
 
 ## Questions / Issues
 This script was made in collaboration with Open Knowledge Foundation and Norwegian Refugee Council as inspired by a script to pull HDX P-Codes into Kobo. See link [here](https://gist.github.com/joshuaberetta/086180242408ead944245c14a9e03872). Please feel free to start an issue or send direct questions to Andrés Vázquez (@avdata99) or Nadine Levin (@nadineisabel). Thanks for reading!
