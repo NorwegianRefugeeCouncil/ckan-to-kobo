@@ -16,9 +16,9 @@ Copy the config-sample.json to config.json and fill in the fields.
 
 ```json
 {
-    "ckan_api_token": "XXXX",
-    "kobo_base_url": "XXXX",
-    "kobo_api_token": "XXXXX",
+    "ckan_api_token": "",
+    "kobo_base_url": "",
+    "kobo_api_token": "",
     "kobo_collection_id": "Optional. Define here the collection ID that will be the frame of work"
 }
 ```
