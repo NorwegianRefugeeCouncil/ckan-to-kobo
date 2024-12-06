@@ -27,7 +27,7 @@ The `kobo-collection-id` can be also defined as a command parameter with `--kobo
 This is a required value.  
 
 Also, you'll need to define:
- - `--dataset-url` - The URL of the CKAN dataset that will be used to create the question block
+ - `--dataset-url` - The URL of a CSV resource in a CKAN dataset that will be used to create the question block
  - `--key-field` - The field from the CSV that will be used as the key in the question block
  - `--value-field` - The field from the CSV that will be used as the value in the question block
  - `--question-label` - The label of the question block
