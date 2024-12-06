@@ -9,7 +9,7 @@ from ndx.utils import get_csv_resource_as_json
 
 
 @click.command()
-@click.option('--dataset-url', help='URL to the NDX dataset', type=str, required=True)
+@click.option('--dataset-url', help='URL to a CSV resource in a CKAN/NDX dataset', type=str, required=True)
 @click.option('--key-field', help='CSV field to be used as key. e.g. ISO3', type=str, required=True)
 @click.option('--value-field', help='CSV field to be used as value. e.g. "Countries and Territories"', type=str, required=True)
 @click.option('--use-cache', is_flag=True, help='Cache and reuse NDX base data')
