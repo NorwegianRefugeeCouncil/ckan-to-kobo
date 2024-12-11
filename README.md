@@ -1,6 +1,6 @@
-# CKAN to KoBo
+# CKAN to Kobo
 
-This script is for technical users with Python familiarity who would like to pull CKAN datasets into their Kobo instance. This will create Kobo Collection question blocks from Kobo resource files.
+This script is for technical users with Python familiarity who would like to pull CKAN datasets into their KoboToolbox instance. This will create Kobo Collection question blocks from Kobo resource files.
 
 ## How to use it
 
@@ -34,7 +34,7 @@ Also, you'll need to define:
  - `--kobo-question-block-id` - The ID of the question block that will be updated.
    If not defined, a new question block will be created
 
-## KoBo test
+## Kobo test
 
 ![Our KoBo test](docs/our-collection.png)
 
@@ -53,11 +53,9 @@ python ndx_pcodes_to_kobo.py \
 
 ![command results](docs/question-block-up-countries-command.png)
 
-Results
+Results:
 
 ![question block countries](docs/question-block-countries.png)
 
 ## Questions / Issues
-This script was made in collaboration with Open Knowledge Foundation and Norwegian Refugee Council as inspired by a script to pull HDX P-Codes into Kobo. See link [here](https://gist.github.com/joshuaberetta/086180242408ead944245c14a9e03872). Please feel free to start an issue or send direct questions to Andrés Vázquez (@avdata99) or Nadine Levin (@nadineisabel). Thanks for reading!
-
-## License
+This script was made in collaboration with Open Knowledge Foundation and Norwegian Refugee Council and was heavily  inspired by a script to pull HDX P-Codes into KoboToolbox. See link [here](https://gist.github.com/joshuaberetta/086180242408ead944245c14a9e03872). Please feel free to start an issue or send direct questions to Andrés Vázquez (@avdata99) or Nadine Levin (@nadineisabel). Thanks for reading!
